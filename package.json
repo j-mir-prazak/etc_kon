@@ -1,0 +1,14 @@
+{
+  "name": "etc_kon",
+  "version": "0.0.0",
+  "description": "etc kon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "someone here, somene there",
+  "license": "ISC",
+  "dependencies": {
+    "node-schedule": "^1.3.0"
+  }
+}

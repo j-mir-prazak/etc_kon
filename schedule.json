@@ -1,0 +1,11 @@
+{"schedule":
+	[
+		{"daynum":0, "name":"sunday", "ohour":"11","chour":"16", "playtimes":[0,30]},
+		{"daynum":1, "name":"monday", "ohour":"","chour":"", "playtimes":[0,30]},
+		{"daynum":2, "name":"tuesday", "ohour":"","chour":"", "playtimes":[0,30]},
+		{"daynum":3, "name":"wednesday", "ohour":"11","chour":"16", "playtimes":[0,30]},
+		{"daynum":4, "name":"thursday", "ohour":"11","chour":"16", "playtimes":[0,30]},
+		{"daynum":5, "name":"friday", "ohour":"11","chour":"16", "playtimes":[0,30]},
+		{"daynum":6, "name":"saturday", "ohour":"11","chour":"16", "playtimes":[0,30]}
+	]
+}
