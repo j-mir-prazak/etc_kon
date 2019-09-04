@@ -226,7 +226,10 @@ function setupJob(){
 	var job = openDay(date.getDay())
 
 	console.log("job scheduled at: " + job)
-	console.log('version: ' + version)
+	console.log("version: " + version)
+
+
+
 
 	var j = schedule.scheduleJob(job, function(fireDate){
 		console.log('new cycle enqueued')
@@ -235,7 +238,6 @@ function setupJob(){
 		})
 		if ( queueRunning === false ) queueHandler()
 	});
-	console.log(j)
 }
 
 

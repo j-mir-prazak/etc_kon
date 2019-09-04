@@ -7,7 +7,7 @@ sudo systemctl disable systemd-timesyncd.service
 
 sudo service systemd-timesyncd stop
 sudo service hwclock.sh stop
-date --s "14:59:45"
+date --s "13:10:45"
 
 elif [ $1 == "true" ]
 then
