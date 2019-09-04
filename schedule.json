@@ -98,40 +98,6 @@
 		{"daynum":2, "name":"sunday","version":"eng", "ohour":"13","chour":"13", "playtimes":[45]},
 
 
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"13","chour":"13", "playtimes":[0]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"13","chour":"13", "playtimes":[45]},
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"14","chour":"14", "playtimes":[30]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"15","chour":"15", "playtimes":[15]},
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"16","chour":"16", "playtimes":[0]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"16","chour":"16", "playtimes":[45]},
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"17","chour":"17", "playtimes":[30]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"18","chour":"18", "playtimes":[15]},
-
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"19","chour":"19", "playtimes":[0]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"19","chour":"19", "playtimes":[45]},
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"20","chour":"20", "playtimes":[30]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"21","chour":"21", "playtimes":[15]},
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"22","chour":"22", "playtimes":[0]},
-		{"daynum":3, "name":"sunday","version":"eng", "ohour":"22","chour":"22", "playtimes":[45]},
-		{"daynum":3, "name":"sunday","version":"cz", "ohour":"23","chour":"23", "playtimes":[30]},
-
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"1","chour":"1", "playtimes":[0]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"1","chour":"1", "playtimes":[45]},
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"2","chour":"2", "playtimes":[30]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"3","chour":"3", "playtimes":[15]},
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"4","chour":"4", "playtimes":[0]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"4","chour":"4", "playtimes":[45]},
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"5","chour":"5", "playtimes":[30]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"6","chour":"6", "playtimes":[15]},
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"7","chour":"7", "playtimes":[0]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"7","chour":"7", "playtimes":[45]},
-
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"8","chour":"8", "playtimes":[30]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"9","chour":"9", "playtimes":[15]},
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"10","chour":"10", "playtimes":[0]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"10","chour":"10", "playtimes":[45]},
-		{"daynum":4, "name":"sunday","version":"cz", "ohour":"11","chour":"11", "playtimes":[30]},
-		{"daynum":4, "name":"sunday","version":"eng", "ohour":"12","chour":"12", "playtimes":[15]},
 
 
 		{"daynum":5, "name":"sunday","version":"cz", "ohour":"13","chour":"13", "playtimes":[0]},
