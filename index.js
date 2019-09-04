@@ -17,20 +17,20 @@ if ( media ) {
 	// process.exit(0);
 }
 
-if ( ! fs.existsSync('assets')) {
-	console.log("no assets folder")
-	process.exit(0)
-}
-
-var assets = new Array();
-assets = fs.readdirSync('assets')
-if ( assets.length < 1) {
-	console.log("no assets")
-	process.exit(0)
-}
-else {
-	console.log(assets)
-}
+// if ( ! fs.existsSync('assets')) {
+// 	console.log("no assets folder")
+// 	process.exit(0)
+// }
+//
+// var assets = new Array();
+// assets = fs.readdirSync('assets')
+// if ( assets.length < 1) {
+// 	console.log("no assets")
+// 	process.exit(0)
+// }
+// else {
+// 	console.log(assets)
+// }
 
 
 //clean up
@@ -76,8 +76,8 @@ function startCycle() {
 
 	var cycle = new Array();
 
-	var filename = "slides.mp4"
-	if ( media ) cycle["player"] = omx(media + 'video/' + filename, 'alsa')
+	var filename = "bad_trip_" + version + "mp4"
+	if ( media ) cycle["player"] = omx(media + 'rpi/' + filename, 'alsa')
 	else cycle["player"] = omx('assets/' + filename, 'alsa')
 	// cycle["player"] = omx('assets/' + filename, 'alsa')
 	pids.push(cycle["player"].pid)
