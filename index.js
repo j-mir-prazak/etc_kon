@@ -235,6 +235,7 @@ function setupJob(){
 		})
 		if ( queueRunning === false ) queueHandler()
 	});
+	console.log(j)
 }
 
 
