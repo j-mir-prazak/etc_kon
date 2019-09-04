@@ -134,6 +134,11 @@
 		{"daynum":3, "name":"sunday","version":"eng", "ohour":"13","chour":"13", "playtimes":[45]},
 		{"daynum":3, "name":"sunday","version":"cz", "ohour":"14","chour":"14", "playtimes":[30]},
 		{"daynum":3, "name":"sunday","version":"eng", "ohour":"15","chour":"15", "playtimes":[15]},
+
+
+		{"daynum":3, "name":"sunday","version":"eng", "ohour":"15","chour":"15", "playtimes":[35]},
+
+
 		{"daynum":3, "name":"sunday","version":"cz", "ohour":"16","chour":"16", "playtimes":[0]},
 		{"daynum":3, "name":"sunday","version":"eng", "ohour":"16","chour":"16", "playtimes":[45]},
 		{"daynum":3, "name":"sunday","version":"cz", "ohour":"17","chour":"17", "playtimes":[30]},
