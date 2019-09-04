@@ -23,7 +23,7 @@ trap terminate SIGINT
 # trap 'echo int; kill -SIGINT $PROC1' SIGINT
 trap terminate SIGTERM
 
-
+xset dpsm force off
 function looping {
 	while true; do
 	  echo -e "\e[34m"

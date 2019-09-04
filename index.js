@@ -133,7 +133,7 @@ function getDay(daynum, array) {
 
 
 function openDay(daynum, days=false) {
-	if ( daynum > 50 ) {
+	if ( daynum > 100 ) {
 		console.log("something wrong with the schedule.json")
 		return false
 	}
@@ -161,25 +161,30 @@ function openDay(daynum, days=false) {
 	}
 
 	var playtimes = day.playtimes
-
 	if ( date.getDay() == daynum ) {
+		console.log("1")
 
 		if ( date.getHours() < ohour ) {
 			return new Date( date.getFullYear(), date.getMonth(), date.getDate(), ohour, playtimes[0], 0, 0)
 		}
 
+		console.log("2")
+
 		var slot = closestSlot(playtimes)
 
 		if ( date.getHours() > chour || ( slot == "plushour" && date.getHours()+1 > chour ) ) {
+			console.log("3")
 			if ( days.length < 1 ) return openDay(daynum+1)
 			else return openDay(daynum, days)
 		}
 
 		else if (  slot == "plushour" && date.getHours()+1 <= chour && date.getHours()+1 < 24  ) {
+			console.log("4")
 			return new Date( date.getFullYear(), date.getMonth(), date.getDate(), date.getHours()+1, playtimes[0], 0, 0)
 		}
 
 		else {
+			console.log("5")
 			return new Date( date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), slot, 0, 0)
 		}
 	}
@@ -199,19 +204,25 @@ function openDay(daynum, days=false) {
 }
 
 function closestSlot(array) {
+	console.log("6")
 	var times = array.concat() || false
-	if (times == false) return false
+	if (times === false) {
+		console.log("10")
+		return false
+	}
 	var slot = times.shift()
 	date = new Date()
 
 	if ( slot > date.getMinutes() ) {
+		console.log("7")
 		return slot
 		}
-
 	else if ( times.length > 0 ) {
+		console.log("8")
 		return closestSlot(times)
 		}
 	else {
+		console.log("9")
 		return "plushour"
 	}
 }
