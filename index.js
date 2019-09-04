@@ -17,6 +17,21 @@ if ( media ) {
 	// process.exit(0);
 }
 
+if ( ! fs.existsSync('assets')) {
+	console.log("no assets folder")
+	process.exit(0)
+}
+
+var assets = new Array();
+assets = fs.readdirSync('assets')
+if ( assets.length < 1) {
+	console.log("no assets")
+	process.exit(0)
+}
+else {
+	console.log(assets)
+}
+
 
 //clean up
 process.on('SIGHUP',  function(){ console.log('\nCLOSING: [SIGHUP]'); process.emit("SIGINT"); })
@@ -51,6 +66,8 @@ var date
 // var sch = obj.schedule
 var obj
 var sch
+
+var version = false
 
 function startCycle() {
 
@@ -134,6 +151,8 @@ function openDay(daynum, days=false) {
 	var day = days.shift()
 
 
+	version = day.version
+
 	var ohour = day.ohour
 	var chour = day.chour
 	if ( ohour === "" || chour === "" ) {
@@ -207,6 +226,7 @@ function setupJob(){
 	var job = openDay(date.getDay())
 
 	console.log("job scheduled at: " + job)
+	console.log('version: ' + version)
 
 	var j = schedule.scheduleJob(job, function(fireDate){
 		console.log('new cycle enqueued')
@@ -216,6 +236,9 @@ function setupJob(){
 		if ( queueRunning === false ) queueHandler()
 	});
 }
+
+
+
 
 //first job setup
 setupJob()
