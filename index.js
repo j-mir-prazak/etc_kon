@@ -76,7 +76,7 @@ function startCycle() {
 
 	var cycle = new Array();
 
-	var filename = "bad_trip_" + version + "mp4"
+	var filename = "bad_trip_" + version + ".mp4"
 	if ( media ) cycle["player"] = omx(media + 'rpi/' + filename, 'alsa')
 	else cycle["player"] = omx('assets/' + filename, 'alsa')
 	// cycle["player"] = omx('assets/' + filename, 'alsa')
